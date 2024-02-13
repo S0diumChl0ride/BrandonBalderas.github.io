@@ -1,0 +1,334 @@
+
+
+
+
+/*PROFILE PICTURE FUNCTIONS*/
+#profile {
+	max-width: 100%;
+	width: 35%;
+	height: 100%;
+	border-radius: 16px;
+}
+
+
+.header_container {
+	display: grid;
+	place-items: center;
+	width: 80%;
+	margin: auto;
+	background-color: #828181;
+	word-spacing: 36px;
+	outline-style: solid;
+	outline-width: 2px;
+	outline-color: black;
+}
+
+/*NAV BUTTON FUNCTIONS*/
+#nav_buttons {
+	text-decoration: none;
+	font-family: Tahoma, sans-serif;
+	padding: 14px 16px;
+	font-size: 20px;
+}
+
+.name_heading {
+	padding-inline: 4px;
+	font-size: 36px;
+	letter-spacing: 1.5px;
+	font-family: Tahoma, sans-serif;
+}
+
+#about_container {
+	width: 80%;
+	margin: auto;
+	display: grid;
+	place-items: center;
+	background-color: #DFDFDF;
+	font-family: Tahoma, sans-serif;
+}
+
+/*BIO ORGANIZATION*/
+.bio_section {
+	width: 80%;
+	margin: auto;
+	display: grid;
+	place-items: center;
+}
+
+/* RESUME SETTINGS AND FUNCTIONS */
+.resume {
+	display: grid;
+	place-items: center;
+	text-decoration: none;
+	color: black;
+	font-size: 36px;
+	letter-spacing: 1.5px;
+	font-family: Tahoma, sans-serif;
+}
+
+/*ALL THE TEXT FOR THE ABOUT ME BIO SECTION BELOW RESUME*/
+.about_bio {
+	width: 60%;
+	font-size: 20px;
+	letter-spacing: 1.2px;
+	font-family: Tahoma, sans-serif;
+}
+
+
+#skillset_container {
+	width: 80%;
+	padding: 20px 0px;
+	margin: auto;
+	display: grid;
+	place-items: center;
+	background-color: #828181;
+	font-family: Tahoma, sans-serif;
+	outline-style: solid;
+	outline-width: 2px;
+	outline-color: black;
+}
+
+/* BELOW PERTAINS TO THE SKILL TITLE FONT */
+.skills {
+	width: 80%;
+	margin: auto;
+	display: grid;
+	text-align: center;
+	padding-inline: 4px;
+	font-size: 36px;
+	letter-spacing: 1.5px;
+}
+
+/*LIST FORMAT*/
+.skill_list {
+	width: 80%;
+	margin: auto;
+	display: ;
+	column-count: 3;
+	column-gap: 64px;
+	column-rule-style: solid;
+	column-rule-width: 1px;
+	list-style: none;
+	letter-spacing: 1.2px;
+	font-size: 20px;
+}
+
+/*GOAL IS TO CREATE A STANDARD FORMAT TEMPLATE FOR THE PROJECTS SECTION. ONE LARGE CONTAINER DIVIDED INTO 3 SEPERATE COLUMNS*/
+#projects_container {
+	display: grid;
+	place-items: center;
+	width: 80%;
+	margin: auto;
+	background-color: #DFDFDF;
+	letter-spacing: 1.5px;
+	font-family: Tahoma, sans-serif;
+}
+
+.projects_header {
+	padding-inline: 4px;
+	font-size: 36px;
+	letter-spacing: 1.5px;
+}
+
+.project_columns {
+	width: 90%;
+	margin: auto;
+	display: flex;
+	background-color: #DFDFDF;
+	font-family: Tahoma, sans-serif;
+	padding-bottom: 16px;
+}
+
+.voice_work_header {
+	margin: 10px;
+	padding-inline: 4px;
+	font-size: 32px;
+	letter-spacing: 1.5px;
+}
+
+.voice_column {
+	display: flex;
+	flex-direction: column;
+	justify-content: top;
+	align-items: center;
+	margin: 10px;
+	width: 75%;
+}
+
+.voice_bio {
+	width: 85%;
+	font-size: 20px;
+	letter-spacing: 1.5px;
+	text-align: center;
+}
+
+#demo_titles_header {
+	padding-inline: 4px;
+	font-size: 24px;
+	letter-spacing: 1.5px;
+}
+
+.game_column {
+	display: flex;
+	flex-direction: column;
+	justify-content: top;
+	align-items: center;
+	width: 85%;
+	margin: 10px;
+}
+/*PICK UP HERE BY TRYING TO GET THE HEADER TO LINE UP PROPERLY*/
+.game_dev_header {
+	display: flex;
+	flex-direction: column;
+	width: 65%;
+	margin: 10px;
+	padding-inline: 4px;
+	font-size: 32px;
+	letter-spacing: 1.5px;
+	text-align: center;
+}
+
+.game_bio {
+	width: 80%;
+	font-size: 20px;
+	letter-spacing: 1.5px;
+	text-align: center;
+}
+
+.miasma {
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+}
+
+.miasma:hover .miasmaOverlay {
+	opacity: 1;
+}
+
+.yearZero {
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+}
+
+.miasma_pic, .miasma_gif, .year_Zero_Menu, .year_Zero_Gif {
+	border-radius: 12px;
+	width: 250px;
+	height: 150px;
+	margin: 10px;
+	flex-direction: column;
+	justify-content: center;
+	place-items: bottom;
+}
+/* THIS IS SUPPOSED TO BE THE OVERLAY FOR THE PICTURES. NOT WORKING YET.
+.miasmaOverlay {
+	position: .year_Zero_Men;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #008CBA
+}
+*/
+.writing_column {
+	display: flex;
+	flex-direction: column;
+	justify-content: top;
+	align-items: center;
+	margin: 10px;
+	width: 75%;
+}
+
+.writing_header {
+	display: flex;
+	flex-direction: column;
+	width: 65%;
+	margin: 10px;
+	padding-inline: 4px;
+	font-size: 32px;
+	letter-spacing: 1.5px;
+	text-align: center;
+}
+
+.writing_bio {
+	width: 85%;
+	font-size: 20px;
+	letter-spacing: 1.5px;
+	text-align: center;
+}
+
+.written_works {
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: bottom;
+	align-items: center;
+	font-family: Tahoma, sans-serif;
+	font-size: 20px;
+	text-align: center;
+	margin: auto;
+}
+
+#contact_container {
+	width: 80%;
+	padding: 20px 0px;
+	margin: auto;
+	display: grid;
+	place-items: center;
+	background-color: #828181;
+	font-family: Tahoma, sans-serif;
+	outline-style: solid;
+	outline-width: 2px;
+	outline-color: black;
+}
+
+/*CONTACT INFO FORMAT*/
+.contact_info {
+	display: grid;
+	place-items: center;
+	font-family: Tahoma, sans-serif;
+	font-size: 30px;
+	letter-spacing: 1.5px;
+}
+
+.email_bio {
+	font-size: 20px;
+}
+
+/*CONTACT HEADER FORMAT*/
+.contact {
+	font-family: Tahoma, sans-serif;
+	font-size: 36px;
+	letter-spacing: 1.5px;
+}
+
+
+
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: black;
+	background-color: #F25050;
+	padding: 14px 16px;
+	border-radius: 12px;
+}
+
+a:active {
+	background-color: #F25050;
+	padding: 14px 16px;
+	border-radius: 12px;
+	text-decoration: none;
+}
+
